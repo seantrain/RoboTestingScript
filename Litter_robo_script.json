@@ -1,7 +1,7 @@
 [
   {
     "eventType": "PERMISSIONS_REQUEST",
-    "timestamp": 1617726589809,
+    "timestamp": 1617729335114,
     "actionCode": -1,
     "delayTime": 0,
     "requestedPermissions": [
@@ -11,58 +11,21 @@
     "elementDescriptors": []
   },
   {
-    "eventType": "VIEW_TEXT_CHANGED",
-    "timestamp": 1617726598604,
-    "replacementText": "tes",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "androidx.appcompat.widget.AppCompatEditText",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "com.example.litter:id/editTextEmail",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "androidx.appcompat.widget.ContentFrameLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "android:id/content",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726602718,
-    "replacementText": "tes",
+    "timestamp": 1617729343082,
+    "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
     "canScrollTo": false,
     "elementDescriptors": [
       {
-        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "className": "androidx.cardview.widget.CardView",
         "recyclerViewChildPosition": -1,
         "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "com.example.litter:id/editTextEmail",
+        "groupViewChildPosition": 5,
+        "resourceId": "com.example.litter:id/CardViewRegister",
         "contentDescription": "",
-        "text": "tes"
+        "text": ""
       },
       {
         "className": "android.widget.RelativeLayout",
@@ -86,8 +49,8 @@
   },
   {
     "eventType": "VIEW_TEXT_CHANGED",
-    "timestamp": 1617726608137,
-    "replacementText": "test@test.com",
+    "timestamp": 1617729349813,
+    "replacementText": "robotest",
     "actionCode": -1,
     "delayTime": 0,
     "canScrollTo": false,
@@ -97,9 +60,9 @@
         "recyclerViewChildPosition": -1,
         "adapterViewChildPosition": -1,
         "groupViewChildPosition": 1,
-        "resourceId": "com.example.litter:id/editTextEmail",
+        "resourceId": "com.example.litter:id/editTextUsernameRegister",
         "contentDescription": "",
-        "text": "tes"
+        "text": ""
       },
       {
         "className": "android.widget.RelativeLayout",
@@ -123,7 +86,44 @@
   },
   {
     "eventType": "VIEW_TEXT_CHANGED",
-    "timestamp": 1617726621889,
+    "timestamp": 1617729363329,
+    "replacementText": "robotest@test.com",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 2,
+        "resourceId": "com.example.litter:id/editTextEmailRegister",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1617729378894,
     "replacementText": "123456",
     "actionCode": -1,
     "delayTime": 0,
@@ -133,230 +133,8 @@
         "className": "androidx.appcompat.widget.AppCompatEditText",
         "recyclerViewChildPosition": -1,
         "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 2,
-        "resourceId": "com.example.litter:id/editTextPassword",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "androidx.appcompat.widget.ContentFrameLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "android:id/content",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726628867,
-    "replacementText": "",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "androidx.cardview.widget.CardView",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 4,
-        "resourceId": "com.example.litter:id/CardViewLogin",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "androidx.appcompat.widget.ContentFrameLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "android:id/content",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726649233,
-    "replacementText": "",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "com.google.android.material.floatingactionbutton.FloatingActionButton",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 4,
-        "resourceId": "com.example.litter:id/post_litter",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.FrameLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "android:id/content",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_TEXT_CHANGED",
-    "timestamp": 1617726653971,
-    "replacementText": "Test Post Created by Robo Test",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "android.widget.EditText",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "com.example.litter:id/litter_Text",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "androidx.cardview.widget.CardView",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "com.example.litter:id/PostLitter",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726691046,
-    "replacementText": "",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "android.widget.ImageButton",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "com.example.litter:id/postLitter",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 1,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "androidx.cardview.widget.CardView",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "com.example.litter:id/PostLitter",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726708651,
-    "replacementText": "",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "android.widget.ImageView",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 2,
-        "resourceId": "com.example.litter:id/DeleteLitter",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "com.example.litter:id/RelativeLayoutTitleExit",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726711839,
-    "replacementText": "",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "com.google.android.material.floatingactionbutton.FloatingActionButton",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
         "groupViewChildPosition": 3,
-        "resourceId": "com.example.litter:id/find_location",
+        "resourceId": "com.example.litter:id/editTextPasswordRegister",
         "contentDescription": "",
         "text": ""
       },
@@ -370,7 +148,44 @@
         "text": ""
       },
       {
-        "className": "android.widget.FrameLayout",
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_TEXT_CHANGED",
+    "timestamp": 1617729385147,
+    "replacementText": "123456",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.appcompat.widget.AppCompatEditText",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 4,
+        "resourceId": "com.example.litter:id/editTextPasswordAgainRegister",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
         "recyclerViewChildPosition": -1,
         "adapterViewChildPosition": -1,
         "groupViewChildPosition": 1,
@@ -382,7 +197,44 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726714926,
+    "timestamp": 1617729392669,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "androidx.cardview.widget.CardView",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 5,
+        "resourceId": "com.example.litter:id/CardViewRegister",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "androidx.appcompat.widget.ContentFrameLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 1,
+        "resourceId": "android:id/content",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1617729416796,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
@@ -419,8 +271,8 @@
   },
   {
     "eventType": "VIEW_TEXT_CHANGED",
-    "timestamp": 1617726717454,
-    "replacementText": "Trail Start",
+    "timestamp": 1617729419854,
+    "replacementText": "Post",
     "actionCode": -1,
     "delayTime": 0,
     "canScrollTo": false,
@@ -456,7 +308,7 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726728283,
+    "timestamp": 1617729424031,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
@@ -493,7 +345,7 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726734847,
+    "timestamp": 1617729428990,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
@@ -530,8 +382,8 @@
   },
   {
     "eventType": "VIEW_TEXT_CHANGED",
-    "timestamp": 1617726737567,
-    "replacementText": "Trail End",
+    "timestamp": 1617729431670,
+    "replacementText": "Trail post",
     "actionCode": -1,
     "delayTime": 0,
     "canScrollTo": false,
@@ -567,7 +419,7 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726745520,
+    "timestamp": 1617729445505,
     "replacementText": "Select",
     "actionCode": -1,
     "delayTime": 0,
@@ -604,7 +456,7 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726748998,
+    "timestamp": 1617729459719,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
@@ -641,27 +493,18 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726766088,
+    "timestamp": 1617729475843,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
     "canScrollTo": false,
     "elementDescriptors": [
       {
-        "className": "android.widget.RelativeLayout",
+        "className": "android.widget.ImageView",
         "recyclerViewChildPosition": -1,
         "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 3,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "androidx.cardview.widget.CardView",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "com.example.litter:id/CreateRoute",
+        "groupViewChildPosition": 6,
+        "resourceId": "com.example.litter:id/Thumb_up",
         "contentDescription": "",
         "text": ""
       },
@@ -669,36 +512,8 @@
         "className": "android.widget.RelativeLayout",
         "recyclerViewChildPosition": -1,
         "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 10,
-        "resourceId": "com.example.litter:id/route_overlay",
-        "contentDescription": "",
-        "text": ""
-      }
-    ]
-  },
-  {
-    "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726769173,
-    "replacementText": "",
-    "actionCode": -1,
-    "delayTime": 0,
-    "canScrollTo": false,
-    "elementDescriptors": [
-      {
-        "className": "androidx.cardview.widget.CardView",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 0,
-        "resourceId": "",
-        "contentDescription": "",
-        "text": ""
-      },
-      {
-        "className": "android.widget.RelativeLayout",
-        "recyclerViewChildPosition": -1,
-        "adapterViewChildPosition": -1,
-        "groupViewChildPosition": 5,
-        "resourceId": "com.example.litter:id/remove_route",
+        "groupViewChildPosition": 1,
+        "resourceId": "com.example.litter:id/RelativeLayoutLitterMessage",
         "contentDescription": "",
         "text": ""
       },
@@ -715,7 +530,44 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726771066,
+    "timestamp": 1617729477873,
+    "replacementText": "",
+    "actionCode": -1,
+    "delayTime": 0,
+    "canScrollTo": false,
+    "elementDescriptors": [
+      {
+        "className": "android.widget.ImageButton",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "com.example.litter:id/closeLitter",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "com.example.litter:id/RelativeLayoutTitleExit",
+        "contentDescription": "",
+        "text": ""
+      },
+      {
+        "className": "android.widget.RelativeLayout",
+        "recyclerViewChildPosition": -1,
+        "adapterViewChildPosition": -1,
+        "groupViewChildPosition": 0,
+        "resourceId": "",
+        "contentDescription": "",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "eventType": "VIEW_CLICKED",
+    "timestamp": 1617729483786,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
@@ -752,7 +604,7 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726779783,
+    "timestamp": 1617729488958,
     "replacementText": "",
     "actionCode": -1,
     "delayTime": 0,
@@ -789,7 +641,7 @@
   },
   {
     "eventType": "VIEW_CLICKED",
-    "timestamp": 1617726781983,
+    "timestamp": 1617729491100,
     "replacementText": "Logout",
     "actionCode": -1,
     "delayTime": 0,
